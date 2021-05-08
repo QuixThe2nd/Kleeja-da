@@ -24,7 +24,22 @@ C:\> qmake ./Kleeja-da.pro
 C:\> mingw32-make.exe
 ```
 ### Mac
-`i'am poor :(`
+#### Setup
+1. Install XCode and run once
+2. Install brew:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+3. Download and install QT from here: https://www.qt.io/download-qt-installer
+4. Install command line QT
+```bash
+~$ brew install qt
+```
+#### Compile
+```bash
+~$ qmake ./Kleeja-da.pro
+~$ make
+```
 
 # support
 
