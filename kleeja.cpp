@@ -25,7 +25,7 @@ bool Kleeja::AreYouOnline(){
 void Kleeja::on_btn_upload_clicked()
 {
 	QString FilePath = QFileDialog::getOpenFileName(this,tr("Select File"), QDir::homePath());
-	if(FilePath != NULL){
+	if(FilePath != nullptr){
 		if((QFileInfo(FilePath).size()/1024000)>=200){
 			QMessageBox messageBox;
 			messageBox.setIcon(QMessageBox::Information);
